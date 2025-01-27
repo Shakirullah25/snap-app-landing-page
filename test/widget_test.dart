@@ -13,7 +13,7 @@ import 'package:snap_landing_page/desktop_layout.dart';
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const SnapMainPage(title:'Snap App Landing Page'));
+    await tester.pumpWidget(const DesktopLayout());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
