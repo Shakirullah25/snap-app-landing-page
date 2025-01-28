@@ -86,3 +86,54 @@
     at process.processTimers (node:internal/timers:529:7)
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2025-01-28T10:32:46.396Z] ----------------------------------------------------------------------
+[debug] [2025-01-28T10:32:46.399Z] Command:       C:\Users\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-01-28T10:32:46.400Z] CLI Version:   13.29.1
+[debug] [2025-01-28T10:32:46.400Z] Platform:      win32
+[debug] [2025-01-28T10:32:46.400Z] Node Version:  v22.12.0
+[debug] [2025-01-28T10:32:46.401Z] Time:          Tue Jan 28 2025 11:32:46 GMT+0100 (West Africa Standard Time)
+[debug] [2025-01-28T10:32:46.401Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-28T10:32:46.545Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-28T10:32:46.546Z] > authorizing via signed-in user (omotososakiru25@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\User\snap_landing_page
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-01-28T10:32:50.067Z] Using project from CLI flag: snap-we-app-landing-page
+[debug] [2025-01-28T10:32:50.069Z] Checked if tokens are valid: true, expires at: 1738063344170
+[debug] [2025-01-28T10:32:50.070Z] Checked if tokens are valid: true, expires at: 1738063344170
+[debug] [2025-01-28T10:32:50.072Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/snap-we-app-landing-page [none]
+[debug] [2025-01-28T10:32:53.994Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/snap-we-app-landing-page 200
+[debug] [2025-01-28T10:32:53.994Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/snap-we-app-landing-page {"projectId":"snap-we-app-landing-page","projectNumber":"137455602497","displayName":"Snap web app","name":"projects/snap-we-app-landing-page","resources":{"hostingSite":"snap-we-app-landing-page"},"state":"ACTIVE","etag":"1_4fce257b-6ba3-4050-adda-e9d4711ff5bf"}
+[info] i  Using project snap-we-app-landing-page (Snap web app) 
+[info] 
+=== Hosting Setup
+[debug] [2025-01-28T10:32:54.008Z] Checked if tokens are valid: true, expires at: 1738063344170
+[debug] [2025-01-28T10:32:54.008Z] Checked if tokens are valid: true, expires at: 1738063344170
+[debug] [2025-01-28T10:32:54.008Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/snap-we-app-landing-page [none]
+[debug] [2025-01-28T10:32:54.297Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/snap-we-app-landing-page 200
+[debug] [2025-01-28T10:32:54.298Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/snap-we-app-landing-page {"projectId":"snap-we-app-landing-page","projectNumber":"137455602497","displayName":"Snap web app","name":"projects/snap-we-app-landing-page","resources":{"hostingSite":"snap-we-app-landing-page"},"state":"ACTIVE","etag":"1_4fce257b-6ba3-4050-adda-e9d4711ff5bf"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
