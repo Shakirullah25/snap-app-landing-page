@@ -48,7 +48,7 @@ class _MobileLayoutState extends State<MobileLayout> {
           ),
         ),
       ),
-      drawer: MobileDrawer(),
+      drawer: const MobileDrawer(),
       body: LayoutBuilder(
         builder: (_, constraints) {
           double screenWidth = constraints.maxWidth;

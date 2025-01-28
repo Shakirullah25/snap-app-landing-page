@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:snap_landing_page/ResponsiveLayout/loading_screen.dart';
 import 'package:snap_landing_page/ResponsiveLayout/responsive_screen.dart';
 
 void main() {
@@ -8,7 +9,11 @@ void main() {
 class AppMainWidget extends StatelessWidget {
   const AppMainWidget({super.key});
 
-  // This widget is the root of your application.
+  Future<void> _loadResources() async {
+    // Simulating a delay for loading resources
+    await Future.delayed(const Duration(seconds: 2));
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,7 +23,17 @@ class AppMainWidget extends StatelessWidget {
         primaryColor: Colors.black,
         useMaterial3: true,
       ),
-      home: const ResponsiveLayout(),
+      home: FutureBuilder(
+        future: _loadResources(),
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const LoadingScreen();
+          } else {
+            return const ResponsiveLayout();
+          }
+        },
+      ),
     );
   }
 }
+

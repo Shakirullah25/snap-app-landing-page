@@ -1,6 +1,6 @@
-# Frontend Mentor - Recipe page solution
+# Frontend Mentor - Snap Web App Landing Page
 
-This is a solution to the [Snap App Landing challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Snap Web App landing challenge frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -20,7 +20,7 @@ This is a solution to the [Snap App Landing challenge on Frontend Mentor](https:
 
 ### Screenshot
 
-![](./lib\assets/image/Screenshot%20(251).png)
+![](./lib/assets/image/Screenshot%20(251).png)
 
 ![](./lib/assets/image/Screenshot%20(252).png)
 
@@ -29,7 +29,7 @@ This is a solution to the [Snap App Landing challenge on Frontend Mentor](https:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/Shakirullah25/snap-app-landing-page.git)
-- Live Site URL: [Live site URL]()
+- Live Site URL: [Live site URL](https://snap-we-app-landing-page.web.app)
 
 ## My process
 
@@ -42,8 +42,6 @@ This is a solution to the [Snap App Landing challenge on Frontend Mentor](https:
 - [Flutter](https://flutter.dev/) - Flutter Framework
 
 ### What I learned
-
-I learnt a lot building this project and these are some of the knowledge i gained during the process:
 
 Learnt a lot coding this as this challenge is kind of challenging but i thank God for the successful completion
 - Learnt more about responsive designs
@@ -59,7 +57,7 @@ Getting started with flutter? Begin your journey at [Flutter Official Website](h
 
 ## Author
 
-- Website - [Shakirullah]()
+- Website - [Shakirullah](https://snap-we-app-landing-page.web.app)
 - Frontend Mentor - [@Shakirullah25](https://www.frontendmentor.io/profile/@Shakirullah25)
 - Twitter - [@Shakirullah25](https://x.com/Shakirullah25?t=pt3PNo8P7PSy3RaDbzCRHQ&s=09)
 - Instagram - [@Shakirullah_001](https://www.instagram.com/shakirullah_001/profilecard/?igsh=MXBpcW9qeGFvcjVvaQ==)

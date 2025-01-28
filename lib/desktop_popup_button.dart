@@ -42,8 +42,8 @@ class _DesktopCustomPopupButtonState extends State<DesktopPopupButton> {
         ),
        // const SizedBox(width: 4),
       PopupMenuButton<String>(
-          menuPadding: EdgeInsets.all(8),
-          offset: Offset(-120, 40),
+          menuPadding: const EdgeInsets.all(8),
+          offset: const Offset(-120, 40),
           color: Colors.white,
           icon: Icon(
             _isMenuOpen ? Icons.keyboard_arrow_up : Icons.keyboard_arrow_down,

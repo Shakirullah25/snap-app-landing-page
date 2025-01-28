@@ -25,7 +25,7 @@ class _MobileDrawerState extends State<MobileDrawer> {
       backgroundColor: AppColors.almostWhite,
       elevation: 0,
       width: 250,
-      shape: RoundedRectangleBorder(
+      shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.all(Radius.zero),
       ),
       child: Column(
@@ -37,7 +37,7 @@ class _MobileDrawerState extends State<MobileDrawer> {
               onPressed: () {
                 Navigator.of(context).pop();
               },
-              icon: Icon(
+              icon: const Icon(
                 Icons.close,
                 size: 30,
                 color: AppColors.almostBlack,
