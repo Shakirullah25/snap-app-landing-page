@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:snap_landing_page/desktop_layout.dart';
-import 'package:snap_landing_page/mobile_layout.dart';
+import 'package:snap_landing_page/DesktopFiles/desktop_layout.dart';
+import 'package:snap_landing_page/MobileFiles/mobile_layout.dart';
 
 class ResponsiveLayout extends StatelessWidget {
   const ResponsiveLayout({super.key});
@@ -13,7 +13,7 @@ class ResponsiveLayout extends StatelessWidget {
           return const DesktopLayout();
         } else {
           return const MobileLayout();
-          
+
         }
       },
     );

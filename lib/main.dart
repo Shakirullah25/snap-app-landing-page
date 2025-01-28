@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:snap_landing_page/ResponsiveLayout/loading_screen.dart';
+import 'package:snap_landing_page/GeneralFiles/loading_screen.dart';
 import 'package:snap_landing_page/ResponsiveLayout/responsive_screen.dart';
 
 void main() {
